@@ -35,7 +35,7 @@ const academicYearSchema = mongoose.Schema({
         }
     ],
 },
-{ timestamp: true}
+{ timestamps: true}
 )
 
 const AcademicYear = mongoose.model("AcademicYear", academicYearSchema);
