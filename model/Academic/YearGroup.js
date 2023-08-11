@@ -18,3 +18,6 @@ const yearGroupSchema = new Schema({
 },
 { timestamps: true }
 )
+
+const YearGroup = mongoose.model("YearGroup", yearGroupSchema)
+module.exports = YearGroup;
