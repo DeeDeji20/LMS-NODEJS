@@ -56,3 +56,6 @@ const ProgramSchema = new Schema({
 },
 { timestamps: true }
 );
+
+const Program = mongoose.model('Program', ProgramSchema);
+module.exports = Program;
